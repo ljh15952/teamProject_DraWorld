@@ -8,6 +8,10 @@ TagManager:
   - MpItem
   - HpItem
   - StaminaItem
+  - weapon
+  - box
+  - hoothold
+  - foot
   layers:
   - Default
   - TransparentFX

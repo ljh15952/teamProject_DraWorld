@@ -6,9 +6,18 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Scenes/Draw.unity
+    path: Assets/Scenes/DrawScene.unity
     guid: 4f82bde356745b54295e59b5427eca35
   - enabled: 1
     path: Assets/Scenes/GameScene.unity
     guid: 86980a280c7b07f458d8e8c66a0cb9ef
+  - enabled: 1
+    path: Assets/Scenes/IntroScene.unity
+    guid: 5c083a3d065a4ed47aa99b43aad4cca5
+  - enabled: 1
+    path: Assets/Scenes/MainSccene.unity
+    guid: 85ae30eab28d715469b9686451eb311f
+  - enabled: 1
+    path: Assets/Scenes/StageSelectScene.unity
+    guid: a142b5c20f041e64ba118db8c13dc155
   m_configObjects: {}

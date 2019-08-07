@@ -4,6 +4,7 @@ using UnityEngine;
 using System.IO;
 using UnityEngine.UI;
 using UnityEditor;
+using UnityEngine.SceneManagement;
 public class DrawAble : MonoBehaviour
 {
 
@@ -18,6 +19,8 @@ public class DrawAble : MonoBehaviour
     public bool Reset_Canvas_On_Play = true;
     public Color Reset_Color = new Color(0, 0, 0, 0); 
     Vector2 previous_drag_position;
+
+    public Image FadeInOutImage;
 
     public string image_path;
 
@@ -83,7 +86,10 @@ public class DrawAble : MonoBehaviour
             File.WriteAllBytes(Application.dataPath + "/Saved_Drawing_Charoctor/" + this.name + ".png", bytes);
 
         }
+        FadeInOutImage.gameObject.SetActive(true);
     }
+
+   
 
     public void Reset_my()
     {

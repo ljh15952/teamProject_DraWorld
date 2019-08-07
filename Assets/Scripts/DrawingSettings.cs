@@ -92,12 +92,10 @@ public class DrawingSettings : MonoBehaviour {
     }
  
 
+
     private void Update()
     {
-        if(Input.GetKeyDown(KeyCode.A))
-        {
-            SceneManager.LoadScene("GameScene");
-        }
+       
     }
 
 }

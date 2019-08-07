@@ -1,4 +1,6 @@
 ﻿using UnityEngine;
+using System.Collections;
+using System.Collections.Generic;
 
 public class PlayerController_Script : MonoBehaviour
 {
@@ -28,6 +30,8 @@ public class PlayerController_Script : MonoBehaviour
 
 
     public StatusManager StatusMng;
+
+    public GameObject myWeapon;
 
     private void Awake()
     {
@@ -76,9 +80,33 @@ public class PlayerController_Script : MonoBehaviour
             Destroy(collision.gameObject);
             StatusMng.ControlStamina(30);
         }
+
+
     }
 
 
+
+    IEnumerator SetOffWeapon()
+    {
+        yield return new WaitForSeconds(0.1f);
+        Debug.Log("ASDASDSDADSADS");
+        myWeapon.GetComponent<BoxCollider2D>().enabled = false;
+    }
+
+    public void Atk()
+    {
+        if (StatusMng.Stamina < 15)
+            return;
+
+        StatusMng.ControlStamina(-10);
+        GetComponent<Animator>().SetTrigger("isAtk");
+        GetComponent<Animator>().SetTrigger("goIdle");
+
+        myWeapon.GetComponent<BoxCollider2D>().enabled = true;
+        StartCoroutine(SetOffWeapon());
+    }
+
+    
     public void Move(float move, bool crouch, bool jump)
     {
         // If crouching, check to see if the character can stand up
@@ -115,8 +143,6 @@ public class PlayerController_Script : MonoBehaviour
         Vector3 targetVelocity = new Vector2(move * 10f, m_Rigidbody2D.velocity.y);
         // And then smoothing it out and applying it to the character
         m_Rigidbody2D.velocity = Vector3.SmoothDamp(m_Rigidbody2D.velocity, targetVelocity, ref velocity, m_MovementSmoothing);
-        Debug.Log(move);
-        Debug.Log(jump);
         if (m_Grounded)
         {
             GetComponent<Animator>().SetBool("isJump", false);
@@ -168,4 +194,8 @@ public class PlayerController_Script : MonoBehaviour
         theScale.x *= -1;
         transform.localScale = theScale;
     }
+
+    
+    
 }
+

@@ -1107,6 +1107,7 @@ MonoBehaviour:
   m_CrouchDisableCollider: {fileID: 0}
   m_Grounded: 0
   StatusMng: {fileID: 0}
+  myWeapon: {fileID: 5767160707764053680}
 --- !u!1 &1637495430173922
 GameObject:
   m_ObjectHideFlags: 0
@@ -1325,9 +1326,10 @@ GameObject:
   - component: {fileID: 4929161214168372}
   - component: {fileID: 212983218368163114}
   - component: {fileID: 114545313559029180}
+  - component: {fileID: 1482288906}
   m_Layer: 0
   m_Name: Drew_right_leg_2
-  m_TagString: Untagged
+  m_TagString: foot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -1408,6 +1410,32 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6b3fc69b668389241b2f0ba6ddc2c3a3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!61 &1482288906
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1706305923987876}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.43, y: 1.03}
+    newSize: {x: 0.08, y: 0.08}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.43, y: 1.03}
+  m_EdgeRadius: 0
 --- !u!1 &1741473196253670
 GameObject:
   m_ObjectHideFlags: 0
@@ -2062,9 +2090,10 @@ GameObject:
   - component: {fileID: 4306236257151728}
   - component: {fileID: 212852400000336844}
   - component: {fileID: 114599129422201638}
+  - component: {fileID: 644038105}
   m_Layer: 0
   m_Name: Drew_left_leg_2
-  m_TagString: Untagged
+  m_TagString: foot
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2145,6 +2174,32 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 6b3fc69b668389241b2f0ba6ddc2c3a3, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!61 &644038105
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1932896992719764}
+  m_Enabled: 1
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 1
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 0.43, y: 1.03}
+    newSize: {x: 0.08, y: 0.08}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 0.43, y: 1.03}
+  m_EdgeRadius: 0
 --- !u!1 &1940110227312678
 GameObject:
   m_ObjectHideFlags: 0
@@ -2188,9 +2243,10 @@ GameObject:
   m_Component:
   - component: {fileID: 5899393566426956877}
   - component: {fileID: 2709988571644189274}
+  - component: {fileID: 200586670150475207}
   m_Layer: 0
   m_Name: Right_arm_weapon
-  m_TagString: Untagged
+  m_TagString: weapon
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -2259,3 +2315,29 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!61 &200586670150475207
+BoxCollider2D:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5767160707764053680}
+  m_Enabled: 0
+  m_Density: 1
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_UsedByEffector: 0
+  m_UsedByComposite: 0
+  m_Offset: {x: 0, y: 0}
+  m_SpriteTilingProperty:
+    border: {x: 0, y: 0, z: 0, w: 0}
+    pivot: {x: 0.5, y: 0.5}
+    oldSize: {x: 1, y: 1}
+    newSize: {x: 1, y: 1}
+    adaptiveTilingThreshold: 0.5
+    drawMode: 0
+    adaptiveTiling: 0
+  m_AutoTiling: 0
+  serializedVersion: 2
+  m_Size: {x: 1, y: 1}
+  m_EdgeRadius: 0

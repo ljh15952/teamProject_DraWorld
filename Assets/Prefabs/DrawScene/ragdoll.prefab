@@ -132,7 +132,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1064193379946544}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.325, y: -0.953, z: 0}
+  m_LocalPosition: {x: -0.397, y: -0.953, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 4933144117198928}
@@ -165,13 +165,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1073283735200910}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.076, y: -0.209, z: 0}
+  m_LocalRotation: {x: -0, y: -0, z: -0.07883224, w: 0.9968879}
+  m_LocalPosition: {x: -0.116, y: -0.209, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4597752453965330}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -9.043}
 --- !u!212 &212256641333251680
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -548,13 +548,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1221820027332700}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.034, y: -0.316, z: 0.0078125}
+  m_LocalRotation: {x: -0, y: -0, z: -0.0729789, w: 0.9973335}
+  m_LocalPosition: {x: -0.024, y: -0.382, z: 0.0078125}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4269990057326296}
   m_RootOrder: 1
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -8.370001}
 --- !u!212 &212217789209957082
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -628,7 +628,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1229248715575244}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: 0.020508442, w: 0.9997897}
   m_LocalPosition: {x: 0.18483473, y: -0.5307023, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -636,7 +636,7 @@ Transform:
   - {fileID: 4762167148863560}
   m_Father: {fileID: 4463344663105304}
   m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 2.3500001}
 --- !u!1 &1278042651805616
 GameObject:
   m_ObjectHideFlags: 0
@@ -742,13 +742,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1296730340374024}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0.067, y: -0.388, z: 0.0078125}
+  m_LocalRotation: {x: -0, y: -0, z: 0.0339111, w: 0.9994249}
+  m_LocalPosition: {x: 0.083, y: -0.394, z: 0.0078125}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4986947139371426}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 3.887}
 --- !u!212 &212112107585953554
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -1515,7 +1515,7 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1717767167126726}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0.03016871, w: 0.99954486}
   m_LocalPosition: {x: -0.16299993, y: -0.5720001, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
@@ -1523,7 +1523,7 @@ Transform:
   - {fileID: 4631348804444410}
   m_Father: {fileID: 4597752453965330}
   m_RootOrder: 2
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: -3.4580002}
 --- !u!1 &1742631775276702
 GameObject:
   m_ObjectHideFlags: 0
@@ -1985,13 +1985,13 @@ Transform:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1987100922519138}
-  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: 0.12336011, w: 0.992362}
   m_LocalPosition: {x: 0.163, y: -0.22, z: 0.0078125}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 4463344663105304}
   m_RootOrder: 0
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 14.172001}
 --- !u!212 &212961709877606820
 SpriteRenderer:
   m_ObjectHideFlags: 0

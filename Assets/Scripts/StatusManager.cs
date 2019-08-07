@@ -21,10 +21,16 @@ public class StatusManager : MonoBehaviour
         Stamina = Stamina_i.fillAmount * 100;
     }
 
+    private void Update()
+    {
+        if (Stamina < 100)
+            ControlStamina(0.1f);
+    }
+
     public void ControlHp(float Control)
     {
         Hp += Control;
-        Hp_i.fillAmount = Hp;
+        Hp_i.fillAmount = Hp/100;
     }
 
     public void ControlMp(float Control)
@@ -35,6 +41,6 @@ public class StatusManager : MonoBehaviour
     public void ControlStamina(float Control)
     {
         Stamina += Control;
-        Stamina_i.fillAmount = Stamina;
+        Stamina_i.fillAmount = Stamina/100;
     }
 }
